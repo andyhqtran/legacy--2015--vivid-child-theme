@@ -1,0 +1,44 @@
+// Base Color
+$white: #FFFFFF;
+$black: #000000;
+$dark-gray: lighten($black, 20%);
+$gray: lighten($black, 40%);
+$light-gray: lighten($black, 60%);
+
+// Colors
+$primary: #1684FB;
+$success: #57CA7E;
+$info: #B4D0FD;
+$warning: #FED330;
+$danger: #FB4F59;
+$colors: ("primary": $primary, "success": $success, "info": $info, "warning": $warning, "danger": $danger);
+
+// Theme Colors
+$accent: $primary;
+
+// Fonts
+$body-font: "Poppins";
+
+// Font Weight
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+
+// Base Settings
+$base-background-color: #F5F8FA;
+$base-font-color: $gray;
+$base-font-family: $body-font, sans-serif;
+$base-font-size: rem(12);
+$base-font-weight: $medium;
+$base-line-height: rem(20);
+
+// Grid Settings
+$grid-width: 1170px;
+$grid-max-width: 1170px;
+$grid-columns: 4;
+$grid-gutters: rem(30);
+
+// Components Settings
+$component-border-radius: 4px;

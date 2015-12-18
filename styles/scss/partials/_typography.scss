@@ -1,0 +1,128 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background: $base-background-color;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba($accent, 0.6);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 rem(10);
+  color: $dark-gray;
+  font-weight: $bold;
+
+  // Alternative Font Weight
+  &.alt {
+    font-weight: $light;
+  }
+}
+
+h1 {
+  font-size: rem(72);
+  line-height: rem(72);
+}
+
+h2 {
+  font-size: rem(60);
+  line-height: rem(60);
+}
+
+h3 {
+  font-size: rem(48);
+  line-height: rem(48);
+}
+
+h4 {
+  font-size: rem(36);
+  line-height: rem(36);
+}
+
+h5 {
+  font-size: rem(30);
+  line-height: rem(30);
+}
+
+h6 {
+  font-size: rem(24);
+  line-height: rem(24);
+}
+
+.title {
+  color: $dark-gray;
+  font-size: 18px;
+  margin: 0 0 rem(10);
+}
+
+p {
+  margin: 0 0 rem(10);
+  font-size: rem(12);
+}
+
+a {
+  color: $dark-gray;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    color: $accent;
+  }
+}
+
+blockquote {
+  display: block;
+  margin: 0 0 rem(10);
+  color: $dark-gray;
+  font-size: rem(18);
+  line-height: rem(26);
+
+  &:before,
+  &:after {
+    content: "'";
+    display: inline;
+    color: inherit;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+
+  li {
+    &:before {
+      content: '';
+      display: inline-block;
+      background: #B9C2CC;
+      width: 6px;
+      height: 6px;
+      border-radius: 10px;
+      margin: 0 10px 0 0;
+      vertical-align: middle;
+    }
+  }
+
+  ul {
+    margin: 0 0 0 15px;
+  }
+}
+
+ol {
+  padding: 0 0 0 15px;
+}
+
+hr {
+  background: #EBEEf0;
+  height: 2px;
+  border: 0;
+  margin: rem(30) 0;
+}

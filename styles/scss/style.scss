@@ -12,23 +12,17 @@
  Text Domain:  extra-child-theme
 */
 
+// Functions
+@import "base/functions";
+
 // Variables
 @import "base/variables";
 
 // Mixins
 @import "base/mixins";
 
-/* Body */
+// Body
 body {}
 
-/* Header */
-@import "partials/header";
-
-/* Button */
-@import "partials/button";
-
-/* Input */
-@import "partials/input";
-
-/* Footer */
-@import "partials/footer";
+// Typography
+@import "partials/typography";
