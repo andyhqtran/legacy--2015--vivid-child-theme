@@ -14,7 +14,8 @@ $danger: #FB4F59;
 $colors: ("primary": $primary, "success": $success, "info": $info, "warning": $warning, "danger": $danger);
 
 // Theme Colors
-$accent: $primary;
+$accent: #5EC8FF;
+$secondary: #3E5062;
 
 // Fonts
 $body-font: "Poppins";
@@ -35,10 +36,13 @@ $base-font-weight: $medium;
 $base-line-height: rem(20);
 
 // Grid Settings
-$grid-width: 1170px;
+$grid-width: 100%;
 $grid-max-width: 1170px;
 $grid-columns: 4;
 $grid-gutters: rem(30);
 
 // Components Settings
 $component-border-radius: 4px;
+
+// Header Settings
+$header-width: $grid-max-width; // Subtracts gutters from width.

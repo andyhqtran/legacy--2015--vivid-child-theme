@@ -1,0 +1,12 @@
+.container {
+  width: $grid-width;
+  max-width: $grid-max-width;
+
+  .et_pb_row {
+    margin: 0 (-$grid-gutters / 2) !important;
+
+    .et_pb_column {
+      padding: 0 ($grid-gutters / 2) !important;
+    }
+  }
+}

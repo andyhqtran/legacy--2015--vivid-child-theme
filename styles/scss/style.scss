@@ -26,3 +26,19 @@ body {}
 
 // Typography
 @import "partials/typography";
+
+// Input
+@import "partials/input";
+
+// Button
+@import "partials/button";
+
+// Grid
+@import "partials/grid";
+
+// Header
+@import "partials/header";
+
+#main-content {
+  padding-top: 234px;
+}
