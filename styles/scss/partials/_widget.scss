@@ -1,0 +1,51 @@
+.et_pb_widget {
+  padding: rem(30);
+  box-shadow: 0 1px 4px rgba($black, 0.1);
+  font-size: rem(12);
+
+  .widgettitle {
+    background: none;
+    margin: 0 0 rem(30);
+    padding: 0;
+    color: $dark-gray;
+    font-size: rem(14);
+    text-align: center;
+  }
+
+  li {
+    border: 0;
+    padding: rem(10) 0;
+    font-size: rem(12);
+
+    &:before {
+      display: none;
+    }
+
+    * {
+      font-size: rem(12) !important;
+    }
+
+    .title {
+      margin: 0 !important;
+    }
+
+    .post-meta {
+      font-size: rem(10) !important;
+    }
+  }
+
+  &.widget_search {
+    padding: 0;
+  }
+
+  &.widget_et_recent_tweets {
+    .widget_footer {
+      background: none;
+      padding: rem(30) 0 0;
+
+      a {
+        font-size: rem(12) !important;
+      }
+    }
+  }
+}
